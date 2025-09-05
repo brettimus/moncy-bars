@@ -75,6 +75,9 @@ temp/
 
 # Output of 'npm pack'
 *.tgz
+# Allow "shame-deps" with package fiberplane-cli
+!apps/*/shame-deps/
+!apps/*/shame-deps/*.tgz
 
 # Yarn Integrity file
 .yarn-integrity
