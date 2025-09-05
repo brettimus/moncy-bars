@@ -1,0 +1,11 @@
+{
+  "name": "moncy-bars",
+  "private": true,
+  "scripts": {
+    "format": "pnpm -r format",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.2"
+  }
+}
