@@ -1,4 +1,4 @@
-import { McpServer, StreamableHttpTransport } from "mcp-mcp-mcp";
+import { McpServer, StreamableHttpTransport } from "mcp-lite";
 
 // Create MCP server
 const mcp = new McpServer({

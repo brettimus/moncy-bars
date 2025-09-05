@@ -20,9 +20,12 @@ importers:
       hono:
         specifier: ^4.9.6
         version: 4.9.6
-      mcp-mcp-mcp:
-        specifier: ^0.1.2
-        version: 0.1.2
+      mcp-lite:
+        specifier: ^0.1.0
+        version: 0.1.0
+      zod:
+        specifier: ^4.1.5
+        version: 4.1.5
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20250904.0
@@ -251,6 +254,9 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
+  '@standard-schema/spec@1.0.0':
+    resolution: {integrity: sha512-m2bOd0f2RT9k8QJx1JN85cZYyH1RqFBdlwtkSlf4tBDYLCiiZnv1fIIwacK6cqwXavOydf0NPToMQgpKq+dVlA==}
+
   chalk@5.6.0:
     resolution: {integrity: sha512-46QrSQFyVSEyYAgQ22hQ+zDa60YHA4fBstHmtSApj1Y5vKtG27fWowW03jCk5KcbXEWPZUIR894aARCA/G1kfQ==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
@@ -280,8 +286,8 @@ packages:
     resolution: {integrity: sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==}
     engines: {node: '>=6'}
 
-  mcp-mcp-mcp@0.1.2:
-    resolution: {integrity: sha512-a+URkrgeMyGUwLe6Xe0HdgQ1bOfeaxaWfXXCLsqm4WU6yV4esU+h+XN8stUuZFa8tDEjYJZdacu0Rur5chYkGw==}
+  mcp-lite@0.1.0:
+    resolution: {integrity: sha512-sqzQ4X7iISlA6SlaxINL8C3nW2WMp1G/hmligfhfp7eylTUvqNOZ3AWwxc2SmGVGATJFYgOox1Jq97qN+MIAZg==}
 
   prompts@2.4.2:
     resolution: {integrity: sha512-NxNv/kLguCA7p3jE8oL2aEBsrJWgAakBpgmgK6lpPWV+WuOmY6r2/zbAVnP+T8bQlA0nzHXSJSJW0Hq7ylaD2Q==}
@@ -297,6 +303,9 @@ packages:
     resolution: {integrity: sha512-+wKjMNU9w/EaQayHXb7WA7ZaHY6hN8WgfvHNQ3t1PnU91/7O8TcTnIhCDYTZwnt8JsO9IBqZ30Ln1r7pPF52Aw==}
     engines: {node: '>=18.0.0'}
     hasBin: true
+
+  zod@4.1.5:
+    resolution: {integrity: sha512-rcUUZqlLJgBC33IT3PNMgsCq6TzLQEG/Ei/KTCU0PedSWRMAXoOUN+4t/0H+Q8bdnLPdqUYnvboJT0bn/229qg==}
 
 snapshots:
 
@@ -421,6 +430,8 @@ snapshots:
       commander: 14.0.0
       prompts: 2.4.2
 
+  '@standard-schema/spec@1.0.0': {}
+
   chalk@5.6.0: {}
 
   commander@14.0.0: {}
@@ -465,9 +476,9 @@ snapshots:
 
   kleur@3.0.3: {}
 
-  mcp-mcp-mcp@0.1.2:
+  mcp-lite@0.1.0:
     dependencies:
-      hono: 4.9.6
+      '@standard-schema/spec': 1.0.0
 
   prompts@2.4.2:
     dependencies:
@@ -484,3 +495,5 @@ snapshots:
       get-tsconfig: 4.10.1
     optionalDependencies:
       fsevents: 2.3.3
+
+  zod@4.1.5: {}

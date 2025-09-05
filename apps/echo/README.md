@@ -1,2 +1,2 @@
-Testing the echo mcp server for `mcp-mcp-mcp`
+Testing the echo mcp server for `mcp-lite`
 
