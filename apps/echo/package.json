@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"auth": "fiberplane-cli auth",
-    "deploy": "fiberplane-cli deploy",
+		"deploy": "fiberplane-cli deploy",
 		"format": "biome format --write .",
 		"typecheck": "tsc --noEmit"
 	},
