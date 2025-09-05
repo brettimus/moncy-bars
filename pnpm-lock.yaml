@@ -11,6 +11,9 @@ importers:
       '@biomejs/biome':
         specifier: ^2.2.2
         version: 2.2.2
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.2
 
   apps/echo:
     dependencies:
@@ -304,6 +307,11 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
+  typescript@5.9.2:
+    resolution: {integrity: sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
   zod@4.1.5:
     resolution: {integrity: sha512-rcUUZqlLJgBC33IT3PNMgsCq6TzLQEG/Ei/KTCU0PedSWRMAXoOUN+4t/0H+Q8bdnLPdqUYnvboJT0bn/229qg==}
 
@@ -495,5 +503,7 @@ snapshots:
       get-tsconfig: 4.10.1
     optionalDependencies:
       fsevents: 2.3.3
+
+  typescript@5.9.2: {}
 
   zod@4.1.5: {}
