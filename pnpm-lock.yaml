@@ -31,6 +31,22 @@ importers:
         specifier: ^4.20250904.0
         version: 4.20250904.0
 
+  apps/unhinged-app-builder:
+    dependencies:
+      '@fiberplane/cli':
+        specifier: ^0.2.0
+        version: 0.2.0
+      hono:
+        specifier: ^4.9.6
+        version: 4.9.6
+      mcp-lite:
+        specifier: ^0.1.0
+        version: 0.1.0
+    devDependencies:
+      '@cloudflare/workers-types':
+        specifier: ^4.20250904.0
+        version: 4.20250904.0
+
 packages:
 
   '@biomejs/biome@2.2.2':

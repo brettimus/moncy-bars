@@ -1,0 +1,19 @@
+{
+	"name": "@moncy-bars/unhinged-app-builder",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"auth": "fiberplane-cli auth",
+		"deploy": "fiberplane-cli deploy",
+		"format": "biome format --write .",
+		"typecheck": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@fiberplane/cli": "^0.2.0",
+		"hono": "^4.9.6",
+		"mcp-lite": "^0.1.0"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20250904.0"
+	}
+}
