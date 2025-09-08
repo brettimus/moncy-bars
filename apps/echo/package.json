@@ -9,7 +9,7 @@
 		"typecheck": "tsc --noEmit"
 	},
 	"dependencies": {
-		"@fiberplane/cli": "^0.1.5",
+		"@fiberplane/cli": "^0.2.0",
 		"hono": "^4.9.6",
 		"mcp-lite": "^0.1.0"
 	},
