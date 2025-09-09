@@ -18,14 +18,14 @@ importers:
   apps/echo:
     dependencies:
       '@fiberplane/cli':
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^0.2.1
+        version: 0.2.1
       hono:
         specifier: ^4.9.6
         version: 4.9.6
       mcp-lite:
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^0.1.2
+        version: 0.1.2
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20250904.0
@@ -34,14 +34,14 @@ importers:
   apps/unhinged-app-builder:
     dependencies:
       '@fiberplane/cli':
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^0.2.1
+        version: 0.2.1
       hono:
         specifier: ^4.9.6
         version: 4.9.6
       mcp-lite:
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^0.1.2
+        version: 0.1.2
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20250904.0
@@ -105,8 +105,8 @@ packages:
   '@cloudflare/workers-types@4.20250904.0':
     resolution: {integrity: sha512-674ULxQdY+RJOUdmQUa8XSYjHR8EVcQjFz50dKuubX7NxlUeDWeeEgsXGeYZ1oXZSGRazykalt6BMwuKm05DMw==}
 
-  '@fiberplane/cli@0.2.0':
-    resolution: {integrity: sha512-v0T6U+V7j5EjP9nFI/++ISrM3PPR8OsnSchvrS+hMwb8jmiVeG0rxStS6Jn+EGeY6HAlh6B+yhPAKrX564g1dA==}
+  '@fiberplane/cli@0.2.1':
+    resolution: {integrity: sha512-pTqaxMYiIo6t7j6nT42aFHmj57lofK1g8jP8Nh1Ti6yCrzClfspNO/vZfmA0H0vZQLaVXQzFXPBNdM8q1o80Zw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -162,8 +162,8 @@ packages:
     resolution: {integrity: sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==}
     engines: {node: '>=6'}
 
-  mcp-lite@0.1.0:
-    resolution: {integrity: sha512-sqzQ4X7iISlA6SlaxINL8C3nW2WMp1G/hmligfhfp7eylTUvqNOZ3AWwxc2SmGVGATJFYgOox1Jq97qN+MIAZg==}
+  mcp-lite@0.1.2:
+    resolution: {integrity: sha512-HCNvCQ/6q5t3iPFE9X0XhJDBa0KcHg9aXQFi2MKNtOU7Eaq9RUAustAe000xq29g0OG48eBO0Swlzgh8t+rVQw==}
 
   open@10.2.0:
     resolution: {integrity: sha512-YgBpdJHPyQ2UE5x+hlSXcnejzAvD0b22U2OuAP+8OnlJT+PjWPxtgmGqKKc+RgTM63U9gN0YzrYc71R2WT/hTA==}
@@ -228,7 +228,7 @@ snapshots:
 
   '@cloudflare/workers-types@4.20250904.0': {}
 
-  '@fiberplane/cli@0.2.0':
+  '@fiberplane/cli@0.2.1':
     dependencies:
       '@oslojs/oauth2': 0.5.0
       chalk: 5.6.0
@@ -271,7 +271,7 @@ snapshots:
 
   kleur@3.0.3: {}
 
-  mcp-lite@0.1.0:
+  mcp-lite@0.1.2:
     dependencies:
       '@standard-schema/spec': 1.0.0
 
