@@ -29,6 +29,10 @@ const mcpHandler = transport.bind(mcp);
 // Integrate with HTTP framework
 const app = new Hono();
 
+app.get("/", (c) =>
+	c.text("Hello! To connect to this MCP server, use the /mcp endpoint"),
+);
+
 app.all("/mcp", async (c) => {
 	const response = await mcpHandler(c.req.raw);
 	return response;
