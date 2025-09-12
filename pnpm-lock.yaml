@@ -24,8 +24,8 @@ importers:
         specifier: ^4.9.6
         version: 4.9.6
       mcp-lite:
-        specifier: ^0.1.2
-        version: 0.1.2
+        specifier: ^0.2.0
+        version: 0.2.0
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20250904.0
@@ -40,8 +40,8 @@ importers:
         specifier: ^4.9.6
         version: 4.9.6
       mcp-lite:
-        specifier: ^0.1.2
-        version: 0.1.2
+        specifier: ^0.2.0
+        version: 0.2.0
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20250904.0
@@ -162,8 +162,8 @@ packages:
     resolution: {integrity: sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==}
     engines: {node: '>=6'}
 
-  mcp-lite@0.1.2:
-    resolution: {integrity: sha512-HCNvCQ/6q5t3iPFE9X0XhJDBa0KcHg9aXQFi2MKNtOU7Eaq9RUAustAe000xq29g0OG48eBO0Swlzgh8t+rVQw==}
+  mcp-lite@0.2.0:
+    resolution: {integrity: sha512-R1Oi7Ojvx2OBOqcp151we5Ez8WB5e3xtGd2WSk1vFThYmZfGXdFUNtHmiJDskOg2S5ypajMMRG+rBywWi1AQJw==}
 
   open@10.2.0:
     resolution: {integrity: sha512-YgBpdJHPyQ2UE5x+hlSXcnejzAvD0b22U2OuAP+8OnlJT+PjWPxtgmGqKKc+RgTM63U9gN0YzrYc71R2WT/hTA==}
@@ -271,7 +271,7 @@ snapshots:
 
   kleur@3.0.3: {}
 
-  mcp-lite@0.1.2:
+  mcp-lite@0.2.0:
     dependencies:
       '@standard-schema/spec': 1.0.0
 

@@ -11,7 +11,7 @@
 	"dependencies": {
 		"@fiberplane/cli": "^0.2.1",
 		"hono": "^4.9.6",
-		"mcp-lite": "^0.1.2"
+		"mcp-lite": "^0.2.0"
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20250904.0"
